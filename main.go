@@ -6,6 +6,10 @@ import (
 	"net/http"
 )
 
+func SayHello() {
+	fmt.Println("Hello")
+}
+
 func handler(w http.ResponseWriter, r *http.Request) {
 	title := "Jenkins X golang http example"
 
